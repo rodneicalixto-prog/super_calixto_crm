@@ -1,0 +1,1 @@
+import{r as t,d as n}from"./index-Bdp-z0kq.js";function f(){const[a,s]=t.useState([]),[r,o]=t.useState(!0);return t.useEffect(()=>{let e=!1;return(async()=>{const u=n(),{data:c}=await u.schema("whatsapp_hub").rpc("list_operators");e||(s(c??[]),o(!1))})(),()=>{e=!0}},[]),{operators:a,loading:r}}export{f as u};
